@@ -30,32 +30,4 @@ require 'spec_helper'
         end
     end
 
-    # Edit bookmark page
-    describe "View for editing a bookmark" do
-    
-        it "should have the content 'Create a bookmark'" do
-            visit '/bookmarks/id/edit'
-              page.should have_content('Create a bookmark')
-        end
-    
-        it "should have the content 'Show all bookmarks'" do
-            visit '/bookmarks/id/edit'
-              page.should have_content('Show all bookmarks')
-        end
-        
-end
 
-    # Show a bookmark page
-    describe "View a bookmark" do
-    
-        it "should have the content 'Create a bookmark'" do
-            visit '/bookmarks/id'
-              page.should have_content('Create a bookmark')
-        end
-    
-        it "should have the content 'Show all bookmarks'" do
-            visit '/bookmarks/id'
-              page.should have_content('Show all bookmarks')
-        end
-        
-end
