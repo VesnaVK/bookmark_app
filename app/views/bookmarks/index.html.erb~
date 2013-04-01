@@ -1,5 +1,5 @@
 <h1>Listing bookmarks</h1>
-<p>Here's a list of all your bookmarks.</p>
+
 <table>
   <tr>
     <th>Url</th>
@@ -21,8 +21,5 @@
 </table>
 
 <br />
-<p>
-<%= link_to 'Create a bookmark', new_bookmark_path %>
-&nbsp;&nbsp;|&nbsp;&nbsp;
-<%= link_to 'Show all bookmarks', bookmarks_path %>
-</p>
+
+<%= link_to 'New Bookmark', new_bookmark_path %>

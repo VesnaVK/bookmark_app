@@ -1,5 +1,11 @@
 <h1>New bookmark</h1>
-
+<p>Perhaps you'd like to create a new bookmark.</p>
 <%= render 'form' %>
 
 <%= link_to 'Back', bookmarks_path %>
+<br />
+<p>
+<%= link_to 'Create a bookmark', new_bookmark_path %>
+&nbsp;&nbsp;|&nbsp;&nbsp;
+<%= link_to 'Show all bookmarks', bookmarks_path %>
+</p>
